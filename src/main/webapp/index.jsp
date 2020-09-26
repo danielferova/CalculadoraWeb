@@ -39,6 +39,9 @@
         <center>
             <p>     
                 <input type="submit" value="Calcular">
+        </center>
+              <center>
+            <p>      
                 <input type="reset" value="Vacíar campos" onclick="unselect()">
         </center>
     </form>
