@@ -14,7 +14,8 @@
         <% if(request.getAttribute("Resultado") == null) {%>
         
            <center>
-        <h3>Daniel Fernández</h3>   
+        <h3>Daniel Fernández - 201731816</h3>   
+        <h3>IPC2</h3> 
         <h1>Bienvenido a CALCULADORA WEB!</h1>
         <h2>Seleccione las operaciones matemáticas que desea realizar</h2>
             </center>   
