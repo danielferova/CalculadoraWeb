@@ -41,7 +41,7 @@ public class CalculadoraW extends HttpServlet{
             cadena+="<h1>'Número Mayor'</h1>" + calculador.operacionMayor();
         }
         if (request.getParameter("potencia") != null) {
-            cadena+="<h1>Potencia: </h1>" + calculador.operacionPotencia();
+            cadena+="<h1>'Potencia'</h1>" + calculador.operacionPotencia();
         }
         if (request.getParameter("binario") != null) {
             cadena+="<h1> 'Números Binarios' </h1>";
