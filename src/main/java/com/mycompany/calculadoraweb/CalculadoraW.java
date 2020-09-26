@@ -24,7 +24,6 @@ public class CalculadoraW extends HttpServlet{
     @Override
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException{
         response.setContentType("text/html");
-        PrintWriter out = response.getWriter();
         double n1 = Double.parseDouble(request.getParameter("n1"));
         double n2 = Double.parseDouble(request.getParameter("n2")); 
         String cadena = "";

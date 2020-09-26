@@ -49,7 +49,7 @@ public class Calculador {
         int n = (int)num;
         int x= n;
         int exp=0;
-        int r=0;
+        int r = 0;
         int binario = 0;
         
      while(x>0){
