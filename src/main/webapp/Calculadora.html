@@ -1,0 +1,27 @@
+<!DOCTYPE htm>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Calculadora Web</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            .div{
+                text-indent: 450px;
+            }
+        </style>
+         <script type="text/javascript">
+            function unselect() {
+                document.querySelectorAll('[name=suma]').forEach((x) => x.checked = false);
+                document.querySelectorAll('[name=multiplicacion]').forEach((x) => x.checked = false);
+                document.querySelectorAll('[name=mayor]').forEach((x) => x.checked = false);
+                document.querySelectorAll('[name=potencia]').forEach((x) => x.checked = false);
+                document.querySelectorAll('[name=binario]').forEach((x) => x.checked = false);
+            }
+        </script>
+    </head>
+</html>
